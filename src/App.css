@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+.app_form{
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 100%;
+  margin: 20px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 1em;
+}
+.app_formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app_Input{
+  flex:1;
+}
+.app__iconButton{
+  flex:1;
+}
